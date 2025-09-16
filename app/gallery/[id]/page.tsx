@@ -39,7 +39,7 @@ export default async function GalleryDetailPage({ params }: PageProps) {
   }
 
   return (
-    <AuthWrapper>
+    // <AuthWrapper>
     <div className="container mx-auto px-4 py-8">
       <div className="max-w-6xl mx-auto">
         {/* Header */}
@@ -171,6 +171,6 @@ export default async function GalleryDetailPage({ params }: PageProps) {
         )}
       </div>
     </div>
-    </AuthWrapper>
+    // </AuthWrapper>
   );
 }
