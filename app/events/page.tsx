@@ -29,7 +29,6 @@ export default async function EventsPage() {
   const pastEvents = events.filter((event: any) => new Date(event.date) < new Date())
 
   return (
-    <AuthWrapper>
     <div className="container mx-auto px-4 py-8 max-w-6xl">
       <div className="text-center mb-12">
         <h1 className="text-4xl font-bold mb-4">Events</h1>
@@ -139,7 +138,6 @@ export default async function EventsPage() {
           </div>
         </div>
       )}
-    </div>
-    </AuthWrapper>
+  </div>
   )
 }

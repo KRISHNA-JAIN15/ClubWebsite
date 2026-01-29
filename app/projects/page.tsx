@@ -26,7 +26,6 @@ export default async function ProjectsPage() {
   const projects = await getProjects()
 
   return (
-    <AuthWrapper>
     <div className="container mx-auto px-4 py-8 max-w-6xl">
       <div className="text-center mb-12">
         <h1 className="text-4xl font-bold mb-4">Our Projects</h1>
@@ -93,7 +92,6 @@ export default async function ProjectsPage() {
           <p className="text-muted-foreground">No projects available yet.</p>
         </div>
       )}
-    </div>
-    </AuthWrapper>
+  </div>
   )
 }
